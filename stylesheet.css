@@ -28,4 +28,28 @@ body{
 
 .awesome{
     font-size: 50px;
+    margin-bottom: 0;
+}
+
+.awesome-subtext{
+    color: rgb(193, 193, 193);
+    margin-top: 0;
+}
+
+.first-button{
+    background-color: rgb(45, 106, 247);
+    color: white;
+    padding: 8px 16px;
+}
+
+#sections{
+    display: flex;
+    flex: 1;
+}
+.placeholder{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    padding: 50px;
+    background-color: rgb(193, 193, 193);
 }
