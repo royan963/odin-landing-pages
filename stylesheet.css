@@ -4,18 +4,23 @@ body{
     margin: 0;
 }
 
-/* header section start */
+/* first page  */
+
+
 #first{
     background-color: rgb(12, 44, 70);
     color: rgb(193, 193, 193);
+    padding-bottom: 100px;
 }
 
+
+/* header section start */
 .header{
     padding: 8px;
     margin: 0px 100px;
 }
 
-ul{
+ul.header-list{
     display: flex;
     gap: 12px;
     list-style: none;
@@ -65,4 +70,27 @@ li.header-logo{
     padding: 75px 150px;
     background-color: rgb(193, 193, 193);
     color: white;
+}
+
+/*     awesome section ends  */
+
+/*      first page ends    */
+
+
+/* second page starts     */
+
+#second{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8px 24px;
+}
+
+img{
+    width: 150px;
+    height: auto;
 }
