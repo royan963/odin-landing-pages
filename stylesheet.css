@@ -1,5 +1,5 @@
 #first{
-    background-color: steelblue;
+    background-color: rgb(12, 44, 70);
     color: white;
 }
 
@@ -12,7 +12,7 @@
 }
 
 #header-links{
-    color:darkslategrey;
+    color:rgb(193, 193, 193);
     display: flex;
     gap: 16px;
 }
