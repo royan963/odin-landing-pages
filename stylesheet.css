@@ -1,14 +1,18 @@
+
+
 body{
     margin: 0;
 }
+
+/* header section start */
 #first{
     background-color: rgb(12, 44, 70);
-    color: white;
+    color: rgb(193, 193, 193);
 }
 
 .header{
     padding: 8px;
-    margin: 0px 50px;
+    margin: 0px 100px;
 }
 
 ul{
@@ -20,11 +24,23 @@ ul{
 }
 li.header-logo{
     margin-right: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }
 
-#first-bottom{
-  display: block;
-  margin: 0 100px;
+
+/* header section end  */
+
+/*    Awesome part   */
+
+#sections{
+    display: flex;
+    margin: 0px 100px;
+}
+
+.signing-up{
+    margin-right: auto;
   width: 360px;
 }
 
@@ -41,19 +57,12 @@ li.header-logo{
 .first-button{
     background-color: rgb(45, 106, 247);
     color: white;
-    padding: 8px 16px;
+    padding: 8px 40px;
 }
 
-#sections{
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1;
-}
+
 .placeholder{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-left: 10px;
-    padding: 50px;
+    padding: 75px 150px;
     background-color: rgb(193, 193, 193);
+    color: white;
 }
