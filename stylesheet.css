@@ -52,10 +52,10 @@ li.header-logo{
 .awesome{
     font-size: 50px;
     margin-bottom: 0;
+    color: white;
 }
 
 .awesome-subtext{
-    color: rgb(193, 193, 193);
     margin-top: 0;
 }
 
@@ -104,4 +104,19 @@ img{
 
 .subtext{
     color: rgb(193, 193, 193);
+}
+
+/*       second page ends    */
+
+
+/*     third page starts      */
+
+#third{
+    background-color:rgb(193, 193, 193);
+    padding: 100px;
+}
+
+.quote{
+    text-align: center;
+    font-style: italic;
 }
