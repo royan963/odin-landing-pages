@@ -94,8 +94,15 @@ li.header-logo{
 
 }
 
+.box{ 
+    width: 15%;
+}
+
 img{
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
+.subtext{
+    color: rgb(193, 193, 193);
+}
