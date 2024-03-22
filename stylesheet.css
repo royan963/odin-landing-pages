@@ -169,3 +169,19 @@ img{
     height: 33px;
     width: 100px;
 }
+
+/* fourth section ends */
+/* footer starts */
+
+#footer{
+    background-color: rgb(12, 44, 70);
+    padding: 50px 0px;
+    color: white;
+}
+
+#footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
