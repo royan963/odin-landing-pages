@@ -130,3 +130,30 @@ img{
     font-weight: bold;
     font-size: 24px;
 }
+
+/* third page ends  */
+
+/* fourth page starts   */
+
+#fourth{
+    margin-bottom: 100px;
+}
+
+.signup{
+    background-color: blue;
+    display: flex;
+}
+
+.signup h3{
+    color: white;
+}
+
+.signup p{
+    color: rgb(109, 109, 109);
+}
+
+.signup button{
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
