@@ -8,9 +8,9 @@ body{
 
 
 #first{
-    background-color: rgb(12, 44, 70);
-    color: rgb(193, 193, 193);
+    background-color: #1f2937;
     padding-bottom: 100px;
+    color: #e5e7eb;
 }
 
 
@@ -26,10 +26,11 @@ ul.header-list{
     list-style: none;
     align-items: baseline;
     padding: 0px;
+    font-size: 18px;
 }
 li.header-logo{
     margin-right: auto;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     color: white;
 }
@@ -46,21 +47,23 @@ li.header-logo{
 
 .signing-up{
     margin-right: auto;
-  width: 360px;
+    width: 360px;
 }
 
 .awesome{
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: bolder;
     margin-bottom: 0;
-    color: white;
+    color: #f9faf8;
 }
 
 .awesome-subtext{
     margin-top: 0;
+    color: #e5e7eb;
 }
 
 .first-button{
-    background-color: rgb(45, 106, 247);
+    background-color: #3882f6;
     color: white;
     padding: 8px 40px;
 }
@@ -83,6 +86,12 @@ li.header-logo{
     margin-top: 50px;
 }
 
+#second h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 .boxes{
     display: flex;
     justify-content: space-evenly;
@@ -103,7 +112,7 @@ img{
 }
 
 .subtext{
-    color: rgb(193, 193, 193);
+    color: #e5e7eb;
 }
 
 /*       second page ends    */
@@ -112,16 +121,17 @@ img{
 /*     third page starts      */
 
 #third{
-    background-color:rgb(193, 193, 193);
+    background-color: #e5e7eb;
     padding: 100px;
 }
 
 .quote{
     text-align: center;
     font-style: italic;
-    font-size: 48px;
+    font-weight: lighter;
+    font-size: 36px;
     margin: 0px 200px;
-    color: rgb(109, 109, 109);
+    color: #1f2937;
 }
 
 .author{
@@ -141,7 +151,7 @@ img{
 }
 
 .signup{
-    background-color: blue;
+    background-color: #3882f6;
     display: flex;
     flex: 1;
     margin: 0px 200px;
@@ -162,7 +172,7 @@ img{
 }
 
 .signup button{
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
     border-color: white;
     margin-left: auto;
