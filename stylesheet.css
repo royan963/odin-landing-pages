@@ -67,9 +67,8 @@ li.header-logo{
 
 
 .placeholder{
-    padding: 75px 150px;
-    background-color: rgb(193, 193, 193);
-    color: white;
+ width: 500px;
+ height: 250px;
 }
 
 /*     awesome section ends  */
