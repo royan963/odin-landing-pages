@@ -136,24 +136,36 @@ img{
 /* fourth page starts   */
 
 #fourth{
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .signup{
     background-color: blue;
     display: flex;
+    flex: 1;
+    margin: 0px 200px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.signup h3{
+.signup h2{
     color: white;
+    margin-bottom: 0;
 }
 
 .signup p{
     color: rgb(109, 109, 109);
+    margin-top: 0;
 }
 
 .signup button{
     background-color: blue;
     color: white;
     border-color: white;
+    margin-left: auto;
+    height: 33px;
+    width: 100px;
 }
